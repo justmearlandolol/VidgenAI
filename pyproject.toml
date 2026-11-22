@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vidgenai"
+version = "0.1.0"
+description = "CLI skill for AI agents to download and convert media from TikTok, Instagram, Snapchat, and YouTube"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["yt-dlp"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+vidgenai = "vidgenai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

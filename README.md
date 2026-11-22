@@ -118,8 +118,6 @@ All tests run offline using mocks.
 
 ## Limitations & Legal Disclaimer
 
-- Only download public content or content you are authorized to download.
 - Downloads a single item per URL (`noplaylist=True`); playlists and full profiles are not downloaded.
 - Instagram and Snapchat frequently change their endpoints and may require Netscape-format cookies (`--cookies`); download success is not guaranteed.
 - Keep `yt-dlp` updated (`pip install -U yt-dlp`) if extraction fails.
-- You are solely responsible for complying with copyright laws and each platform's Terms of Service.

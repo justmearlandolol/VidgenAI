@@ -54,4 +54,4 @@ After `status == "ok"`, deliver the actual file to the user instead of printing 
 
 - Downloads a single item per URL (`noplaylist=True`).
 - Never inspect, log, print, or store the contents of `--cookies` files.
-- Public or user-authorized content only. Instagram and Snapchat may require cookies and are not guaranteed to succeed.
+- Instagram and Snapchat may require cookies and are not guaranteed to succeed.

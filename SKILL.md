@@ -67,8 +67,7 @@ Never stop after printing JSON. Always deliver the file at `path` (guaranteed ab
 ## Limitations
 
 - Single media item per URL (`noplaylist=True`).
-- Public content or content the user is authorized to download only.
 - Instagram and Snapchat frequently change and may require `--cookies`; success is not guaranteed.
 - Update `yt-dlp` periodically (`pip install -U yt-dlp`) when downloads fail.
 - Never log, echo, or commit cookie contents.
-- The user is responsible for copyright compliance and platform Terms of Service.
+
